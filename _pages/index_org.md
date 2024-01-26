@@ -1,9 +1,14 @@
----
-layout: page
-title: Home
-id: home
-permalink: /
----
+[//]: # (---)
+
+[//]: # (layout: page)
+
+[//]: # (title: Home)
+
+[//]: # (id: home)
+
+[//]: # (permalink: /)
+
+[//]: # (---)
 
 # 엑셀 가계부 기록용 옵시디언 퍼블리시 🌱
 
