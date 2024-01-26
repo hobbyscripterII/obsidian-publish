@@ -1,23 +1,22 @@
-# Welcome! 🌱
+---
+layout: page
+title: Home
+id: home
+permalink: /
+---
+
+# 엑셀 가계부 기록용 옵시디언 퍼블리시 🌱
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+    해당 프로젝트는 이전에 만든 <a class="internal-link" href="https:/blog.naver.com/wruomma2/222603014060">엑셀 가계부</a>를 참고하고 있습니다.
 </p>
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+<strong>가계부 프로젝트 목차</strong>
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
-<strong>Recently updated notes</strong>
-
-<ul>
-  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes limit: 5 %}
-    <li>
-      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+[[주제 선정]] <br>
+[[회원, 자산현황, 가계부 테이블 생성]] <br>
+[[회원가입 유효성 검증 및 닉네임 중복 검사]] <br>
+[[예외 처리 페이지 만들기(SSR)]] <br>
 
 <style>
   .wrapper {
